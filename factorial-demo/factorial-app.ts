@@ -1,5 +1,5 @@
 var readlineSync = require('readline-sync')
-let n: number = readlineSync.questionInt('Enter a number: ');
+let n: number = readlineSync.questionInt('Enter a number please: ');
 
 console.log("Welcome to the factorial app!");
 
