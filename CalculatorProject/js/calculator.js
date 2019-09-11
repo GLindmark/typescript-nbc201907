@@ -1,0 +1,18 @@
+"use strict";
+var a = 2;
+var b = 5;
+var add = function (a, b) { return a + b; };
+var subtract = function (a, b) { return a - b; };
+var multiply = function (a, b) { return a * b; };
+var divide = function (a, b) { return a / b; };
+var modulus = function (a, b) { return a % b; };
+var result1 = add(a, b);
+var result2 = subtract(a, b);
+var result3 = multiply(a, b);
+var result4 = divide(a, b);
+var result5 = modulus(a, b);
+console.log(result1);
+console.log(result2);
+console.log(result3);
+console.log(result4);
+console.log(result5);
